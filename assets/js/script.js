@@ -10,3 +10,9 @@ function speakText(text) {
     const utterance = new SpeechSynthesisUtterance(text);
     speechSynthesis.speak(utterance);
 }
+
+
+function playAudio() {
+    const audioPlayer = document.getElementById('audioPlayer');
+    audioPlayer.play();
+}
