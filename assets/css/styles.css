@@ -1,0 +1,11 @@
+.hero{
+    height: 89vh;
+    width: 100%;
+    background: rgb(255, 123, 0);
+}
+
+.hero-container{
+    background-size: cover;
+    background: url("../img/objects1.png");
+
+}
